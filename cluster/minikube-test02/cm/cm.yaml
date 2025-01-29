@@ -4,10 +4,7 @@ kind: ConfigMap
 metadata:
   name: cm
   namespace: default
-  annotations:
-    kustomize.toolkit.fluxcd.io/reconcile: disabled
 data:
   hoi: dag
   bloeb: blaat
   yolo: yes!
-  one-added-again: test123
