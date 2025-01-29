@@ -3,5 +3,6 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: cm
+  namespace: default
 data:
   hoi: dag
