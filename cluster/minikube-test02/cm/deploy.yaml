@@ -16,8 +16,9 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: nginx
-        name: nginx
-        env:
-          - name: hoi
-            value: dag
+        - name: nginx
+          image: nginx:1.25.1
+          resources: {}
+          env:
+            - name: hoi
+              value: dag
