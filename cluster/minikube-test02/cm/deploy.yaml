@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ''
+          image: nginx:1.27.0
           resources: {}
           env:
             - name: hoi
